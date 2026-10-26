@@ -1,0 +1,9 @@
+{
+  "name": "tarafbet-life",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "audit": "node src/audit.mjs"
+  }
+}
