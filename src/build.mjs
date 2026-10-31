@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const src = path.join(root, 'src');
 const dist = path.join(root, 'dist');
-const affiliate = 'https://r1wbjhb.com/?p=ihfk';
+const affiliate = 'https://go.apswatchbracelet.com/tarafbet-life';
 const site = 'https://tarafbet.life';
 const indexNowKey = 'cfbe30ee4c8296a5b0aca4d46f7592d2';
 const yandexVerificationId = 'ab44b370b3152592';
