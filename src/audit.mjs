@@ -45,7 +45,7 @@ for (const file of files) {
   if (rel === 'index.html' && visibleWords < 1000) errors.push(`${rel}: only ${visibleWords} visible words`);
   if (rel !== 'index.html' && rel !== '404.html' && visibleWords < 430) errors.push(`${rel}: only ${visibleWords} visible words`);
   for (const match of html.matchAll(/<a[^>]+href="(https?:\/\/[^\"]+)"/g)) {
-    if (match[1] !== 'https://r1wbjhb.com/?p=ihfk') errors.push(`${rel}: unexpected external CTA ${match[1]}`);
+    if (match[1] !== 'https://go.apswatchbracelet.com/tarafbet-life') errors.push(`${rel}: unexpected external CTA ${match[1]}`);
   }
   for (const [value, map, label] of [[title,titles,'title'],[description,descriptions,'description']]) {
     if (map.has(value)) errors.push(`${rel}: duplicate ${label} with ${map.get(value)}`);
